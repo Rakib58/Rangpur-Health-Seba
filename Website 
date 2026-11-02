@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakib Tech KYC Work</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 18px 0;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      opacity: 0.9;
+    }
+    .hero {
+      padding: 80px 0 60px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 30px;
+      align-items: center;
+    }
+    h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      margin: 0 0 18px;
+      color: #0f172a;
+    }
+    p {
+      font-size: 1.05rem;
+      color: #475569;
+    }
+    .btns {
+      margin-top: 24px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+    }
+    .btn-secondary {
+      background: white;
+      color: #0f172a;
+      border: 1px solid #dbe2ea;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+    }
+    .profile {
+      width: 100%;
+      border-radius: 20px;
+      min-height: 400px;
+      object-fit: cover;
+      display: block;
+      background: linear-gradient(135deg, #dbeafe, #d1fae5);
+    }
+    .section {
+      padding: 70px 0;
+    }
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #0f172a;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 24px;
+      border-radius: 18px;
+      border: 1px solid #e2e8f0;
+    }
+    .service h3 {
+      margin-top: 0;
+      color: #0f172a;
+    }
+    .contact-box {
+      background: #0f172a;
+      color: white;
+      padding: 28px;
+      border-radius: 20px;
+    }
+    .contact-box a {
+      color: white;
+      text-decoration: none;
+    }
+    footer {
+      background: #0f172a;
+      color: rgba(255,255,255,0.8);
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 760px) {
+      .hero-grid, .grid {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">Rakib Tech KYC Work</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/Rakib58" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Smart tech solutions for modern business growth.</h1>
+          <p>
+            Rakib Tech KYC Work helps businesses build a trustworthy digital presence with
+            smart tech support, website services, and professional business-friendly solutions.
+          </p>
+          <div class="btns">
+            <a class="btn btn-primary" href="#contact">Get Started</a>
+            <a class="btn btn-secondary" href="https://github.com/Rakib58" target="_blank" rel="noopener">My GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="profile"
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+            alt="Business profile"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am Rakib, a digital professional focused on helping businesses grow through practical
+          technology, modern design, and reliable support. My goal is to combine personal attention
+          with professional business standards.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid">
+          <div class="service">
+            <h3>Website Design</h3>
+            <p>Professional, modern websites that present your business clearly and confidently.</p>
+          </div>
+          <div class="service">
+            <h3>Business Support</h3>
+            <p>Helpful digital support for startups, personal brands, and professional services.</p>
+          </div>
+          <div class="service">
+            <h3>KYC Assistance</h3>
+            <p>Structured support for document handling and verification workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-box">
+          <h2 style="color:white;">Contact</h2>
+          <p>Email: rakibtechkyc@gmail.com</p>
+          <p>Phone: +880 1234 567890</p>
+          <p>GitHub: <a href="https://github.com/Rakib58" target="_blank" rel="noopener">github.com/Rakib58</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Rakib Tech KYC Work
+  </footer>
+
+</body>
+</html>
